@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-size: 18px;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 500;
+    color: hsl(0, 0%, 41%);
+}
+
+/* Header Section */
+.header,.left-nav,.right-nav,ul{
+    display: flex;
+}
+.header{
+    justify-content: space-between;
+   
+}
+.left-nav,.right-nav{
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    color: hsl(0, 0%, 41%);
+    align-items: center;
+   
+}
+li:hover{
+    color: black;
+}
+
+.header{
+    padding: 25px;
+}
+
+li{
+    margin:  0 20px;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+.logo{
+    margin-right: 35px;
+}
+.nav-btn{
+    border: 1px solid hsl(0, 0%, 41%);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.nav-btn:hover{
+    border-color: black;
+    color: black;
+}
+
+/* hero-section */
+
+.hero-section{
+    display: flex;
+    width: 100%;
+}
+
+.left-section,.right-section{
+    width: 50%;
+}
+.hero-img{
+    height: 80vh;
+    max-width: 80vh;
+}
+
+.hero-heading{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 700;
+    font-size: 4.5rem;
+    margin-bottom: 50px;
+}
+
+.left-section{
+    padding: 100px 100px 0 100px;
+}
+.hero-para{
+    padding-right: 180px;
+    margin-bottom: 50px;
+}
+
+.bottom-imgs{
+    margin-top: 80px;
+}
+.imgs{
+    margin-right: 30px;
+}
+
+.hero-btn{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 19px;
+}
+.hero-btn:hover{
+    background-color: white;
+    color: black;
+}
